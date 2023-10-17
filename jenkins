@@ -1,0 +1,9 @@
+pipeline {
+agent any
+stage{
+stage('Checkout'){
+steps{
+checkoutscm}}
+stage('Build and Package'){
+steps{
+sh 'mvn cleanpackage'}}}}
